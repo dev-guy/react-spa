@@ -1,6 +1,6 @@
 # Introduction
 
-This React-based single-page application was built using create-react-app in November 2020.
+This React-based single-page application was built using [Create React App](https://create-react-app.dev/) in October 2020.
 
 ## Features
 
@@ -9,8 +9,8 @@ This React-based single-page application was built using create-react-app in Nov
 - [Prettier and ESLint using Airbnb Style Guide](https://terrislinenbach.medium.com/formatting-and-linting-a-modern-react-typescript-project-fa127e6426f)
 - [Material-UI](https://material-ui.com/) version 5 components (still alpha)
 - Page transitions via [React Router](https://reactrouter.com/)
-- External data retrieval via [react-query](https://react-query.tanstack.com/) version 3
-- Tabular data display via [react-table](https://react-table.tanstack.com/)
+- External data retrieval via [React Query](https://react-query.tanstack.com/) version 3
+- Tabular data display via [React Table](https://react-table.tanstack.com/)
 - Global state management via [Recoil](https://recoiljs.org/)
 - "Loading" feedback via [React Suspense](https://reactjs.org/docs/concurrent-mode-suspense.html)
 - Translations via [i18next](https://www.i18next.com/)
