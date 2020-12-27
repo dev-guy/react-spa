@@ -1,6 +1,6 @@
 # Introduction
 
-This React 17-based single page application (SPA) for browsers (not React Native) was built using create-react-app in November 2020.
+This React-based single-page application was built using create-react-app in November 2020.
 
 ## Features
 
