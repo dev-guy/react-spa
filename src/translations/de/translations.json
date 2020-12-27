@@ -1,0 +1,9 @@
+{
+  "App": {
+    "select-language": "Select a language (in Deutsche)"
+  },
+  "Login": {
+    "title": "Welcome (in Deutsche)!",
+    "button-login": "Log In"
+  }
+}
