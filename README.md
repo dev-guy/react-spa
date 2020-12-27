@@ -1,4 +1,4 @@
-# A Modern React SPA Browser App to Ring In 2021
+# A Modern React SPA to Ring In 2021
 
 This application is further described [here](docs/app-creation.md).
 
