@@ -134,4 +134,4 @@ This app was made possible by the contributions of many developers who kindly sh
 
 ### Should @types/\* appear in devDependencies?
 
-Because React applications are bundled, it doesn't matter whether you use devDependencies. All dependencies are considered at build time. Modules that aren't needed are discarded. If you're building a reusable library, not including a @types module can cause issues for the module's users. [Reference](https://github.com/facebook/create-react-app/issues/6180#issuecomment-453640473).
+Because React applications are bundled, it doesn't matter whether you use devDependencies. All dependencies are considered at build time. Modules that aren't needed are discarded. If you're building a reusable library, not including a @types module can cause issues for the module's users [see also](https://github.com/facebook/create-react-app/issues/6180#issuecomment-453640473).
