@@ -2,10 +2,6 @@
 
 This React 17-based single page application (SPA) for browsers (not React Native) was built using create-react-app in November 2020.
 
-## Acknowledgements
-
-This app was made possible by the contributions of many voices. I regret that not every reference has been cited but here is a [list of references](tech-references.md) that were invaluable to this project.
-
 ## Features
 
 - React Hooks
@@ -131,6 +127,10 @@ node_modules/
 - set compilerOptions.target to esnext
 
 ## Appendix
+
+### (Ac)Knowledgements
+
+This app was made possible by the contributions of many developers who kindly shared their knowledge, free of charge. I regret that not every reference has been cited. Here is a [list of references](tech-references.md) that were invaluable for building this project.
 
 ### Should @types/\* appear in devDependencies?
 
