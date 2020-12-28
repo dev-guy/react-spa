@@ -1,6 +1,6 @@
 # Introduction
 
-This React-based single-page application was built using [Create React App](https://create-react-app.dev/) in October 2020.
+This React-based single-page application was built using [Create React App](https://create-react-app.dev/) in November 2020.
 
 ## Features
 
