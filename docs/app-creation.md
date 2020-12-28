@@ -23,6 +23,7 @@ This React-based single-page application was built using [Create React App](http
 
 ## Download and Run
 
+- Install [nvm](https://heynode.com/tutorial/install-nodejs-locally-nvm) and git
 - `git clone https://github.com/dev-guy/react-spa.git`
 - `cd react-spa`
 - `nvm i`
