@@ -21,6 +21,18 @@ This React-based single-page application was built using [Create React App](http
   - A sample test invokes an external service
   - Because the example uses the proxy, you must start the app (npm run start) prior to running tests
 
+## Download and Run
+
+- `git clone https://github.com/dev-guy/react-spa.git`
+- `cd react-spa`
+- `nvm i`
+- `npm run start`
+
+## Additional npm scripts
+
+- Format using prettier: `npm run format`
+- Lint: `npm run lint`
+
 ## How this app was created
 
 1. [Install nvm](https://heynode.com/tutorial/install-nodejs-locally-nvm)
