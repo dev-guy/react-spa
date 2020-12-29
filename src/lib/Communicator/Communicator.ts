@@ -36,7 +36,7 @@ abstract class Communicator {
 
   abstract login(): boolean;
 
-  abstract nodes(company: string): Promise<Node[]>;
+  abstract nodes(): Promise<Node[]>;
 }
 
 export default Communicator;

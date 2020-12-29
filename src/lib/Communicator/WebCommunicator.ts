@@ -46,10 +46,10 @@ class WebCommunicator extends Communicator {
     return JSON.parse((await response.text()).replace(/'/g, '"'));
   }
 
-  async nodes(company: string): Promise<Node[]> {
+  async nodes(): Promise<Node[]> {
     const data = await this.getArray({
       type: 'info',
-      details: `blockchain get operator where company = ${company}`,
+      details: `blockchain get operator`,
     });
 
     const newData: Node[] = data.map((item) => {
