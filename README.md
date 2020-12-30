@@ -1,6 +1,6 @@
 # A Modern React SPA to Ring In 2021
 
-This application is further described [here](docs/app-creation.md).
+This application is further described [here](https://terrislinenbach.medium.com/a-modern-react-single-page-app-to-ring-in-2021-35bd104bcac9).
 
 ## Getting Started with Create React App
 
