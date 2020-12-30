@@ -17,7 +17,7 @@
 ## Typescript
 
 - [TypeScript: The starting point for learning TypeScript](https://www.typescriptlang.org/docs/)
-- [typescript - How do I decide whether @types/* goes into `dependencies` or `devDependencies`? - Stack Overflow](https://stackoverflow.com/questions/45176661/how-do-i-decide-whether-types-goes-into-dependencies-or-devdependencies)
+- [typescript - How do I decide whether @types/\* goes into `dependencies` or `devDependencies`? - Stack Overflow](https://stackoverflow.com/questions/45176661/how-do-i-decide-whether-types-goes-into-dependencies-or-devdependencies)
 - [Optional chaining](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#optional-chaining/State)
 
 ## Production vs. Development
@@ -39,12 +39,15 @@
 - [Supporting CORS by Proxying Requests with Express](https://www.telerik.com/blogs/supporting-cors-by-proxying-requests-with-express)
 - [Proxying API Requests in Development | Create React AppMenuMenu](https://create-react-app.dev/docs/proxying-api-requests-in-development/)
 
-## REST
+## Retrieving External Data via REST
 
 - [Enhance Your HTTP-Request With Axios and TypeScript | by Oleh Zaporozhets | Level Up Coding](https://levelup.gitconnected.com/enhance-your-http-request-with-axios-and-typescript-f52a6c6c2c8e)
-- https://blog.bitsrc.io/how-to-start-using-react-query-4869e3d5680d
+- [How and Why You Should Use React Query | by Nathan Sebhastian | Bits and Pieces](https://blog.bitsrc.io/how-to-start-using-react-query-4869e3d5680d)
 - [Axios use proxy](https://masteringjs.io/tutorials/axios/proxy#:~:text=Axios%20supports%20a%20proxy%20option,request%20is%20actually%20meant%20for.)
 - [Data fetching in Redux is painful, get rid of it now](https://link.medium.com/kbT4qvO51bb)
+- [Practical React Query](https://tkdodo.eu/blog/practical-react-query)
+- [React how to display a loading indicator on fetch calls | Basefactor](https://www.basefactor.com/react-how-to-display-a-loading-indicator-on-fetch-calls)
+- [Using Suspense with react-query - LogRocket Blog](https://blog.logrocket.com/using-suspense-with-react-query/)
 
 ## State
 
@@ -69,6 +72,7 @@
 
 - [React Hooks Tutorial - 1 - Introduction - YouTube](https://www.youtube.com/watch?v=cF2lQ_gZeA8)
 - [React Hooks Tutorial: useState, useEffect, useReducer](https://www.valentinog.com/blog/hooks/)
+- [Custom Hooks](https://reactjs.org/docs/hooks-custom.html)
 - [Typing a useReducer React hook in TypeScript](https://www.sumologic.com/blog/react-hook-typescript/)
 - [Different ways to strongly-type function component props with TypeScript | Building SPAs](https://www.carlrippon.com/Different-ways-to-strongly-type-function-component-props-with-typescript/)
 - [reactjs - How to type a React component that accepts another component as a prop, and all of that component's props? - Stack Overflow](https://stackoverflow.com/questions/61148557/how-to-type-a-react-component-that-accepts-another-component-as-a-prop-and-all)
@@ -115,17 +119,16 @@
 
 ## Localization
 
-- [react-i18next, react-router and material-ui not playing well together...](https://spectrum.chat/react/help/react-i18next-react-router-and-material-ui-not-playing-well-together~a724f32a-5cc8-4676-9c15-2a19641dacae)
-- [Quick start - react-i18next documentation](https://react.i18next.com/guides/quick-start)
-- [Localization with React JS. Localization is important for a… | by Tariqul Islam | Medium](https://medium.com/@tariqul.islam.rony/internationalization-localization-with-react-js-65d6f6badd56)
+- [Localization with React JS](https://medium.com/@tariqul.islam.rony/internationalization-localization-with-react-js-65d6f6badd56)
 - [localizing Material-UI](https://material-ui.com/guides/localization/)
 - [localizing Material-UI date picker](https://stackoverflow.com/questions/58677350/how-to-change-the-language-for-keyboarddatepicker-material-ui)
-- [Getting started with internationalization (i18n) in React  | Our Code World](https://ourcodeworld.com/articles/read/395/getting-started-with-internationalization-i18n-in-react)
+- [Getting started with internationalization (i18n) in React | Our Code World](https://ourcodeworld.com/articles/read/395/getting-started-with-internationalization-i18n-in-react)
 
-## "Loading..." Feedback
+### i18next
 
-- [React how to display a loading indicator on fetch calls | Basefactor](https://www.basefactor.com/react-how-to-display-a-loading-indicator-on-fetch-calls)
-- [Using Suspense with react-query - LogRocket Blog](https://blog.logrocket.com/using-suspense-with-react-query/)
+- [Quick start - react-i18next documentation](https://react.i18next.com/guides/quick-start)
+- [Add lazy loading to React i18next with React Suspense](https://linguinecode.com/post/lazy-loading-react-i18next-translations)
+- [react-i18next, react-router and material-ui not playing well together...](https://spectrum.chat/react/help/react-i18next-react-router-and-material-ui-not-playing-well-together~a724f32a-5cc8-4676-9c15-2a19641dacae)
 
 ## Error Handling
 

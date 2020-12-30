@@ -1,5 +1,7 @@
 import { QueryClient } from 'react-query';
 
+import qc from '../queryClient';
+
 export interface Node {
   type: 'query' | 'operator' | 'unknown';
   cluster: string;
@@ -13,7 +15,7 @@ export interface Node {
 abstract class Communicator {
   #username: string;
 
-  #queryClient: QueryClient = new QueryClient();
+  #queryClient = qc();
 
   constructor(username: string) {
     this.#username = username;
