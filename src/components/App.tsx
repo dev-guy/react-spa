@@ -2,12 +2,12 @@ import React from 'react';
 import { RecoilRoot } from 'recoil';
 
 import ErrorHandler from './ErrorHandler';
-import QueryRoot from './Root';
+import Root from './Root';
 
 const App: React.FC = () => (
   <RecoilRoot>
     <ErrorHandler>
-      <QueryRoot />
+      <Root />
     </ErrorHandler>
   </RecoilRoot>
 );
