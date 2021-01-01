@@ -31,6 +31,7 @@
     "react-table": "^7.6.2",
     "recoil": "^0.1.2",
     "request": "^2.88.2",
+    "ts.data.json": "^1.5.0",
     "typeface-roboto": "^1.1.13",
     "web-vitals": "^0.2.4"
   },

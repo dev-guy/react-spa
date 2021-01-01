@@ -57,7 +57,8 @@ npm i --save \
   react-query @types/react-query \
   react-table @types/react-table \
   jest-localstorage-mock \
-  request
+  request \
+  ts.data.json
 
 # Material-UI 5
 npm i --save \

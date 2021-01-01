@@ -3,10 +3,15 @@ import { useQuery } from 'react-query';
 import { useRecoilState } from 'recoil';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
+import Loading from '../LoadingDots';
 import Table from '../Table';
 import communicatorState, { OptionalCommunicator } from '../../lib/communicatorState';
 
 const columns = [
+  {
+    Header: 'Company',
+    accessor: 'company',
+  },
   {
     Header: 'Cluster',
     accessor: 'cluster',
@@ -19,6 +24,22 @@ const columns = [
     Header: 'Name',
     accessor: 'name',
   },
+  {
+    Header: 'Host Name',
+    accessor: 'hostname',
+  },
+  {
+    Header: 'IP Address',
+    accessor: 'ip',
+  },
+  {
+    Header: 'Local IP Address',
+    accessor: 'local ip',
+  },
+  {
+    Header: 'Port',
+    accessor: 'port',
+  },
 ];
 
 const Nodes: React.FC = () => {
@@ -27,16 +48,16 @@ const Nodes: React.FC = () => {
 
   const { isLoading, error, data } = useQuery('nodes', () => communicator.nodes());
 
-  if (isLoading) return <></>;
+  if (isLoading) return <Loading />;
 
   if (error) throw error;
   if (!data) throw new Error();
 
   return (
-    <>
+    <div>
       <CssBaseline />
       <Table columns={columns} data={data} />
-    </>
+    </div>
   );
 };
 
