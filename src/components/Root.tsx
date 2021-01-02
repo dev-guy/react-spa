@@ -9,7 +9,7 @@ import qc from '../lib/queryClient';
 import communicatorState from '../lib/communicatorState';
 import Loading from './LoadingDots';
 
-const QueryRoot: React.FC = () => {
+const Root: React.FC = () => {
   const [communicator] = useRecoilState(communicatorState);
   const queryClient = communicator ? communicator.queryClient : qc();
 
@@ -17,13 +17,11 @@ const QueryRoot: React.FC = () => {
     <QueryClientProvider client={queryClient}>
       <Suspense fallback={<Loading />}>
         <Header />
-        <Suspense fallback={<Loading />}>
-          <Routes />
-        </Suspense>
+        <Routes />
       </Suspense>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
 };
 
-export default QueryRoot;
+export default Root;

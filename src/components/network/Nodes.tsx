@@ -46,12 +46,9 @@ const Nodes: React.FC = () => {
   const [communicator] = useRecoilState<OptionalCommunicator>(communicatorState);
   if (!communicator) throw new Error();
 
-  const { isLoading, error, data } = useQuery('nodes', () => communicator.nodes());
+  const { data } = useQuery('nodes', () => communicator.nodes());
 
-  if (isLoading) return <Loading />;
-
-  if (error) throw error;
-  if (!data) throw new Error();
+  if (!data) return <Loading />;
 
   return (
     <div>
